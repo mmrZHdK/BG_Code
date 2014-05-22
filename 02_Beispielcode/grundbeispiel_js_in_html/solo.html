@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf8">
+    <style>
+      body {
+        box-sizing: border-box;
+        font-family: Helvetica;
+      }
+      h3 {
+        padding: 0.25em;
+        font-weight: bold;
+        color: #009;
+        background-color: #DDF;
+      }
+    </style>
+    <title>Solo</title>
+  </head>
+  
+  <body>
+    <h3> Alles in einer Datei</h3>
+    <p>UI Definition, Stile und JavaScript befinden sich in einer einzigen Datei</p>
+    
+    <div id="ausgabe">Ausgabe:</div>
+    
+    <script type="text/javascript">
+      var zahl = 3.75;
+      var ausgabeDiv = document.getElementById( "ausgabe" );
+      var ausgabeString = "zahl ist " + String( zahl );
+      ausgabeDiv.innerHTML = ausgabeString;
+    </script>
+  </body>
+</html>
