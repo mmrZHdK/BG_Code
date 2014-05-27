@@ -1,0 +1,58 @@
+body {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  font-family: Helvetica;
+  font-size: 16px;
+  line-height: 1.3;
+}
+h1 {
+  padding: 0.25em;
+  font-size: 1.5em;
+  font-weight: bold;
+  color: #009;
+  background-color: #DDF;
+}
+
+.taste {
+  float: left;
+  width: 5em;
+  height: 1.3em;
+  margin: 0.5em;
+  padding: 0.2em 0.5em;
+  color: #696;
+  background-color: #dfd;
+  border: 2px solid #696;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-decoration: none;
+  
+  -webkit-transition:
+      color 0.5s,
+      background-color 0.5s,
+      border 0.5s;
+}
+.taste:hover {
+  color: black;
+  background-color: #8c8;
+  border-color: black;
+}
+
+.ball {
+  position: absolute;
+  top: 400px;
+  left: 10px;
+  width: 60px;
+  height: 60px;
+  padding: 10px;
+  color: white;
+  background-color: grey;
+  border-radius: 50px;
+  font-size: 1em;
+  text-align: center;
+  
+  -webkit-transition:
+      top 1s,
+      left 1s,
+      right 1s,
+      bottom 1s;
+}
