@@ -20,6 +20,10 @@ h1 {
   padding: 0.5em;
   background-color: #9d9;
   border: 1px solid #9d9;
+  
+  -webkit-transition:
+      height 2s,
+      -webkit-transform 1s;
 }
 .block:hover {
   height: 5em;
@@ -27,6 +31,5 @@ h1 {
   border: 1px solid black;
   text-transform: uppercase;
   -webkit-transform: rotate( -45deg );
-  
-  -webkit-transition: height 2s, -webkit-transform 1s;
+  transform: rotate( -45deg );
 }

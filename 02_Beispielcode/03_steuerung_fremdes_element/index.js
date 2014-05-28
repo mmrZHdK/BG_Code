@@ -1,7 +1,7 @@
-$( '#t1' ).click( function ( e ) {
-  console.log( 'click @ ' + e.target.id );
-  var $elem = $( '.ball' );
-  $elem.css( 'background-color', '#b00' );
+$( '#t1' ).click( function ( event ) {
+  console.log( 'click @ ' + event.target.id );
+  var $meinBall = $( '.ball' );
+  $meinBall.css( 'background-color', '#b00' );
 } );
 
 $( '#t2' ).click( function ( e ) {
@@ -27,3 +27,6 @@ $( '#t5' ).click( function ( e ) {
         .css( 'left', '20px' )
         .css( 'top', '500px' );
 } );
+
+
+$( 'h1' ).hide();
